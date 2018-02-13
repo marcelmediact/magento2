@@ -354,7 +354,7 @@ define([
             this.modal.removeAttr('style');
 
             if (this.overlay) {
-                this.overlay.zIndex(this.prevOverlayIndex);
+                this.overlay.zIndex(this.prevOverlayIndex - 1);
             }
         },
 
